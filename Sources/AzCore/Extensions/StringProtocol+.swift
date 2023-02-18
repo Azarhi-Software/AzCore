@@ -1,6 +1,6 @@
 //
-//  File.swift
-//  
+//  StringProtocol.swift
+//  AzCore
 //
 //  Created by Jon Flowers on 1/21/23.
 //

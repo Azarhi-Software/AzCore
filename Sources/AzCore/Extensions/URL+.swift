@@ -1,6 +1,6 @@
 //
 //  URL+.swift
-//  
+//  AzCore
 //
 //  Created by Jon Flowers on 11/19/22.
 //

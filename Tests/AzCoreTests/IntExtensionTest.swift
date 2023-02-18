@@ -49,14 +49,14 @@ class IntExtensionTest: XCTestCase
     
     func testDigits() throws
     {
-        XCTAssertEqual(0.digits, 1)
-        XCTAssertEqual(1.digits, 1)
-        XCTAssertEqual(10.digits, 2)
-        XCTAssertEqual(111.digits, 3)
-        XCTAssertEqual(222.digits, 3)
-        XCTAssertEqual(1111.digits, 4)
-        XCTAssertEqual(12345.digits, 5)
-        XCTAssertEqual(987654.digits, 6)
+        XCTAssertEqual(0.digitsCount, 1)
+        XCTAssertEqual(1.digitsCount, 1)
+        XCTAssertEqual(10.digitsCount, 2)
+        XCTAssertEqual(111.digitsCount, 3)
+        XCTAssertEqual(222.digitsCount, 3)
+        XCTAssertEqual(1111.digitsCount, 4)
+        XCTAssertEqual(12345.digitsCount, 5)
+        XCTAssertEqual(987654.digitsCount, 6)
     }
     
     func testNearest() throws

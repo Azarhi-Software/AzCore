@@ -1,6 +1,6 @@
 //
 //  String+.swift
-//  
+//  AzCore
 //
 //  Created by Jon Flowers on 2/24/22.
 //

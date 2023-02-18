@@ -1,6 +1,6 @@
 //
 //  AzHwInfo.swift
-//  
+//  AzCore
 //
 //  Created by Jon Flowers on 11/24/22.
 //

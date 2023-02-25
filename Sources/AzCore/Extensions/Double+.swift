@@ -62,3 +62,16 @@ public func ** (lhs: Double, rhs: Double) -> Double
     // http://nshipster.com/swift-operators/
     return pow(lhs, rhs)
 }
+
+
+public extension Double
+{
+    func timeString(style: DateComponentsFormatter.UnitsStyle) -> String
+    {
+        let formatter = DateComponentsFormatter()
+        formatter.allowedUnits = [.day, .hour, .minute, .second, .nanosecond]
+        formatter.unitsStyle = style
+        return formatter.string(from: self) ?? ""
+    }
+    
+}

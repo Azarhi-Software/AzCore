@@ -8,7 +8,7 @@
 import Foundation
 
 
-extension Date
+public extension Date
 {
     /// Get number of seconds between two date
     ///

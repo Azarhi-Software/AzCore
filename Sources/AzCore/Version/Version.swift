@@ -64,7 +64,7 @@ public struct Version
     public static let null = Version(0,0,0)
 }
 
-extension Version: LosslessStringConvertible
+public extension Version: LosslessStringConvertible
 {
     /**
      Creates a version object from a string.

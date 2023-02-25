@@ -13,7 +13,7 @@ import UIKit
 #endif
 
 
-extension Data
+public extension Data
 {
     var html2AttributedString: NSAttributedString?
     {

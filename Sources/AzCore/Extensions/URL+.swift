@@ -8,7 +8,7 @@
 import Foundation
 
 
-extension URL
+public extension URL
 {
     /// Returns an array of immediate child urls, without recursing deep into the file hierarchy
     public var contentsOfDirectory: [URL]
@@ -26,7 +26,7 @@ extension URL
     }
 }
 
-extension URL: Identifiable
+public extension URL: Identifiable
 {
     public var id: String
     {

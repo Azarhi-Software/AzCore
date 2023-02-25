@@ -8,7 +8,7 @@
 import Foundation
 
 
-extension FixedWidthInteger
+public extension FixedWidthInteger
 {
     public var byteWidth: Int
     {

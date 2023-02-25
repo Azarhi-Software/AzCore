@@ -10,12 +10,12 @@ import Foundation
 
 public extension FixedWidthInteger
 {
-    public var byteWidth: Int
+    var byteWidth: Int
     {
         return self.bitWidth/UInt8.bitWidth
     }
     
-    public static var byteWidth: Int
+    static var byteWidth: Int
     {
         return Self.bitWidth/UInt8.bitWidth
     }

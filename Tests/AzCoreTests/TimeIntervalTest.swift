@@ -26,7 +26,7 @@ final class TimeIntervalTest: XCTestCase
         let interval: TimeInterval = 1677360870 - 1677356535
         XCTAssertEqual(interval, 4335)
         let timeString = interval.asString()
-        XCTAssertEqual(timeString, "1h : 12m : 15s")
+        XCTAssertEqual(timeString, "01h : 12m : 15s")
     }
 
 }

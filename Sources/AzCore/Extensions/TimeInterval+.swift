@@ -21,8 +21,9 @@ public extension TimeInterval
         var output = ""
         
         if days > 0 { output.append("\(days)D : ") }
-        
-        output.append("\(hours)h : \(minutes)m : \(seconds)s")
+        if hours > 0 { output.append(String(format: "%02dh : ", hours)) }
+        if minutes > 0 { output.append(String(format: "%02dm : ", minutes)) }
+        output.append(String(format: "%02ds", seconds))
         return output
     }
 }
